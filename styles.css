@@ -88,7 +88,7 @@ footer {
   
   width: 800px;
   height: 800px;
-  touch-action: manipulation;
+  
 
 }
 
@@ -97,4 +97,9 @@ footer {
     width: 512px;
     height: 512px;
   }
+}
+
+.disable-double-tap-zoom{
+  touch-action: manipulation;
+
 }
