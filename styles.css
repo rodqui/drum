@@ -103,3 +103,4 @@ footer {
   touch-action: manipulation;
 
 }
+* { touch-action: manipulation; }
