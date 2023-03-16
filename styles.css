@@ -79,3 +79,21 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+
+
+.fulldrum{
+  background-image: url("images/bateria.png");
+  background-size: cover;
+  
+  width: 513px;
+  height: 513px;
+
+}
+
+@media  (max-width:375px){
+  .fulldrum{
+    width: 250px;
+    height: 250px;
+  }
+}
