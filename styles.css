@@ -81,7 +81,7 @@ footer {
 }
 
 
-
+/**/
 .fulldrum{
   background-image: url("images/bateria.png");
   background-size: cover;
@@ -101,3 +101,33 @@ footer {
 
 
 * { touch-action: manipulation; }
+
+
+.d1{
+  position: absolute;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: -200px;
+}
+
+
+.d2{
+  position: absolute;
+  display: inline-block;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.d3{
+  position: absolute;
+  display: inline-block;
+  margin-top: 350px;
+  margin-left: 150px;
+}
+
+.d4{
+  position: absolute;
+  display: inline-block;
+  margin-top: 350px;
+  margin-left: -300px;
+}
