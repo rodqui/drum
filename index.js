@@ -4,7 +4,7 @@ var lenght=document.querySelectorAll("button").length;
 var boton = document.querySelector(".botonprueba");
 var i= 0;
 while(i<lenght){
-    document.querySelectorAll("button")[i].addEventListener("click", 
+    document.querySelectorAll("button")[i].addEventListener("oncanplaythrough", 
     function (){ //anonymous function
         
        var letter = this.innerHTML;
