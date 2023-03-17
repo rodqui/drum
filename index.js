@@ -1,7 +1,7 @@
 
 
 var lenght=document.querySelectorAll("button").length;
-var boton = document.querySelector("botonprueba");
+var boton = document.querySelector(".botonprueba");
 var i= 0;
 while(i<lenght){
     document.querySelectorAll("button")[i].addEventListener("click", 
