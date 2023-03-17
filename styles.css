@@ -104,3 +104,12 @@ footer {
   background-color: white;
 }
 
+.botonprueba{
+  background-image: url("images/crash.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 150px;
+  height: 150px;
+
+}
