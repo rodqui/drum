@@ -48,5 +48,9 @@ while(i<lenght){
 
 boton.addEventListener("click", function(){
     var sound2 = new Audio("sounds/tom-4.mp3");
-    sound2.play();
+    sound2.oncanplaythrough = function(){
+        sound2.play();
+    };
+   
+    
 });
